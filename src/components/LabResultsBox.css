@@ -1,0 +1,40 @@
+.lab-results-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 80%;
+  }
+  
+  .lab-results-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  
+  .lab-results-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  
+  .lab-results-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lab-results-box li {
+    margin-bottom: 5px;
+  }
+  
+  .lab-results-box li strong {
+    color: #0056b3;
+  }
+  

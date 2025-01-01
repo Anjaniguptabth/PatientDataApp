@@ -1,0 +1,18 @@
+.heart-rate-resp-temperature-container {
+  display: flex;
+  justify-content: space-between;  /* Distribute the boxes equally */
+  gap: 10px;                       /* Reduce the space between the boxes */
+  margin-bottom: 20px;             /* Space below the row of boxes */
+}
+
+.heart-rate-box,
+.respiratory-rate-box,
+.temperature-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0;                       /* Remove extra margin */
+  width: 32%;                      /* Each box will take up one-third of the row */
+  height: fit-content;
+}
